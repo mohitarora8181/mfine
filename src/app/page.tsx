@@ -8,7 +8,7 @@ export default function Home() {
   return (
     <div className="w-full h-full">
       <NavBar />
-      <div className="w-full h-full pt-20 overflow-y-auto scrollbar-thin">
+      <div className="w-full h-full pt-20 overflow-y-auto max-sm:overflow-x-hidden scrollbar-thin">
         <Section1 />
         <Section2 />
         <Section3 />
