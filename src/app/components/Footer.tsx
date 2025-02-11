@@ -34,7 +34,7 @@ const Footer = () => {
                         </span>
                     </div>
                 </div>
-                <div className='flex max-sm:px-10 max-sm:grid max-sm:grid-cols-2 max-sm:gap-5 max-sm:py-10 px-20 gap-28 justify-around'>
+                <div className='flex max-sm:px-5 max-sm:grid max-sm:grid-cols-2 max-sm:gap-5 max-sm:py-10 px-20 gap-28 justify-around'>
                     <span className='h-full gap-2 flex flex-col text-[#6d8298]'>
                         <h2 className='text-[#c6d6e6] font-semibold mb-4 max-sm:mb-2'>MFine</h2>
                         <a href="https://www.mfine.co/about-us">About</a>

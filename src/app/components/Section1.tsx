@@ -31,15 +31,15 @@ const Section1 = () => {
                 </div>
             </div>
             <div id="social-information" className='flex w-full h-12 justify-around mt-10 max-sm:mt-0 px-20 max-sm:px-0'>
-                <div className='flex gap-5 text-md max-sm:gap-2  max-sm:text-xs max-sm:whitespace-normal whitespace-nowrap items-center'>
+                <div className='flex gap-5 text-md max-sm:gap-2 max-sm:p-1  max-sm:text-xs max-sm:whitespace-normal whitespace-nowrap items-center'>
                     <img width="100%" height="100%" className='max-sm:size-10' src="https://dg0qqklufr26k.cloudfront.net/wp-content/uploads/2024/03/cirtificate.svg" alt="Satisfied Customers" />
                     10L+ Satisfied Customers
                 </div>
-                <div className='flex gap-5 text-md max-sm:gap-2  max-sm:text-xs max-sm:whitespace-normal whitespace-nowrap items-center'>
+                <div className='flex gap-5 text-md max-sm:gap-2 max-sm:p-1 max-sm:text-xs max-sm:whitespace-normal whitespace-nowrap items-center'>
                     <img width="100%" height="100%" className='max-sm:size-10' src="https://dg0qqklufr26k.cloudfront.net/wp-content/uploads/2024/03/play.svg" alt="Google Play" />
                     4.7 ⭐ on Google Play
                 </div>
-                <div className='flex gap-5 text-md max-sm:gap-2  max-sm:text-xs max-sm:whitespace-normal whitespace-nowrap items-center'>
+                <div className='flex gap-5 text-md max-sm:gap-2 max-sm:p-1 max-sm:text-xs max-sm:whitespace-normal whitespace-nowrap items-center'>
                     <img width="100%" height="100%" className='max-sm:size-10' src="https://dg0qqklufr26k.cloudfront.net/wp-content/uploads/2024/03/user-2.svg" alt="MFine Doctors" />
                     4k+ Doctors in MFine
                 </div>
