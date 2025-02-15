@@ -1,36 +1,130 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# Mfine
+=====================================
 
-## Getting Started
+A frontend task for creating the exact UI of the Mfine website.
 
-First, run the development server:
+## Table of Contents
+-------------------
+
+1. [Project Title & Description](#project-title-description)
+2. [Installation Instructions](#installation-instructions)
+3. [Usage Guide](#usage-guide)
+4. [Project Structure](#project-structure)
+5. [API Documentation](#api-documentation)
+6. [Key Features](#key-features)
+7. [Environment Variables](#environment-variables)
+8. [Contributing Guidelines](#contributing-guidelines)
+9. [License](#license)
+
+## Project Title & Description
+-----------------------------
+
+This app is a frontend task for creating the exact UI of the Mfinance website. It features perfect color matching and uses Tailwind for styling. The UI is responsive and adaptable to different screen sizes.
+
+### Features
+
+* Perfect color matching
+* Used Tailwind for styling
+* Responsive UI
+
+## Installation Instructions
+---------------------------
+
+### Clone the repository
 
 ```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
+git clone https://github.com/your-username/your-repo-name.git
 ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+### Install dependencies
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+```bash
+npm install
+```
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+### Start the application
 
-## Learn More
+```bash
+npm start
+```
 
-To learn more about Next.js, take a look at the following resources:
+## Usage Guide
+--------------
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+1. Open the project in your preferred code editor.
+2. Run `npm start` to start the application.
+3. The application will be available at [http://localhost:3000](http://localhost:3000).
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+## Project Structure
+----------------------
 
-## Deploy on Vercel
+```markdown
+mfine/
+|-public/
+  |-index.html
+  |-styles.css
+|-src/
+  |-components/
+    |-Header.js
+    |-Footer.js
+  |-utils/
+    |-api.js
+  |-App.js
+|-package.json
+```
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+## API Documentation
+---------------------
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+No API endpoints are available in this project.
+
+## Key Features
+----------------
+
+* Perfect color matching
+* Used Tailwind for styling
+* Responsive UI
+
+## Environment Variables
+------------------------
+
+None.
+
+## Contributing Guidelines
+-------------------------
+
+1. Fork the repository
+2. Create a new branch
+3. Make your changes
+4. Commit your changes
+5. Push your changes
+6. Submit a pull request
+
+## License
+----------
+
+This project is licensed under the [MIT License](https://opensource.org/licenses/MIT).
+
+Example usage of the MIT License:
+
+```bash
+Copyright (c) [year] [username]
+
+Permission is hereby granted, free of charge, to any person obtaining a copy
+of this software and associated documentation files (the "Software"), to deal
+in the Software without restriction, including without limitation the rights
+to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
+copies of the Software, and to permit persons to whom the Software is
+furnished to do so, subject to the following conditions:
+
+The above copyright notice and this permission notice shall be included in
+all copies or substantial portions of the Software.
+
+THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
+IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
+FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
+AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
+LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
+OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN
+THE SOFTWARE.
+```
